@@ -1,18 +1,22 @@
-.recipe p{
-  text-align: center;
-  font-size: 50px;
-}
-
-.recipe img{
-  size: 10px;
-}
-
 .recipe{
-  min-width: 200px;
+  /* min-width: 200px; */
   color:red;
   border: 2px solid green;
   box-sizing:border-box;
   padding: 20px;
   width: 50%;
+  /* float:right; */
+  /* float:top; */
 }
 
+.recipe p{
+  text-align: center;
+  font-size:50px;
+  /* scale: auto; */
+}
+
+.recipe img{
+  transform-origin: left;
+  width: 100%;
+  float:left;
+}
