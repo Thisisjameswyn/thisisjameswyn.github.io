@@ -1,21 +1,16 @@
 .myPic{
-  float:left;
-  position:sticky;
-  top:0;
+  height: 300px;
   border: 6px solid #B55052;
-  width: 20%;
-
+  float:left;
 }
 .intro{
   box-sizing: border-box;
-  float: left;
+  float:left;
   scale: 100%;
   padding: 20px;
   width: 50%;
-}
-.aboutMe{
-  box-sizing: border-box;
-  scale: auto;
+  background-color: rgb(238, 238, 238);
+  margin: 30px;
 }
 
 .recipe{
@@ -27,27 +22,23 @@
   float:right;
 }
 
-.recipe ul{
-  float : left;
-}
-
-.recipe ol{
-  float : right;
-}
-
 .recipe p{
   box-sizing: border-box;
-  text-align: right;
+  text-align: left;
   font-size: 200%;
 }
 
 .recipe img{
   box-sizing: border-box;
-  width: 40%;
-  /* float:bottom; */
+  width: 100%;
 }
-
 
 body{
   background-color: #F0FFFE;
+  color:#55514C;
+}
+
+span{
+  text-decoration: underline;
+  color:crimson;
 }
