@@ -1,22 +1,39 @@
 .recipe{
-  /* min-width: 200px; */
-  color:red;
   border: 2px solid green;
   box-sizing:border-box;
   padding: 20px;
-  width: 50%;
-  /* float:right; */
-  /* float:top; */
+  width: 30%;
+  transform: scale(0.5);
+  margin-left: auto;
 }
 
 .recipe p{
   text-align: center;
   font-size:50px;
-  /* scale: auto; */
 }
 
 .recipe img{
-  transform-origin: left;
   width: 100%;
   float:left;
+}
+
+.myPic{
+  float:left;
+  position: sticky;
+  top: 0;
+  width: 25%;
+  /* object-fit: cover; */
+}
+
+body{
+  /* box-sizing: border-box; */
+  float: right;
+  color:red;
+  box-sizing: border-box;
+}
+
+.intro{
+  box-sizing: content-box;
+  float: right;
+  scale: auto;
 }
