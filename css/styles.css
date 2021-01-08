@@ -1,41 +1,55 @@
+.aboutMe{
+  /* float: right; */
+}
+
 .recipe{
-  border: 2px solid green;
-  box-sizing:border-box;
+  /* border: 2px solid black;
+  box-sizing: border-box;
   padding: 20px;
-  width: 30%;
-  transform: scale(0.5);
-  margin-left: auto;
+  width: 40%;
+  text-align: left;
+  float:left; */
+}
+
+.recipe ul{
+  /* float : left; */
+  /* size: 100%; */
+}
+
+.recipe ol{
+  /* float : right; */
 }
 
 .recipe p{
-  text-align: center;
-  font-size:50px;
+  /* box-sizing: border-box; */
+  /* text-align: right; */
+  /* font-size: 100%; */
 }
 
-.recipe img{
-  width: 100%;
+/* .recipe img{
+  box-sizing: border-box;
+  width: 30%;
   float:left;
-}
+} */
 
-.myPic{
+/* .myPic{
   float:left;
   position: sticky;
   top: 0;
-  /* width: 25%; */
   border: 6px solid #B55052;
   height: 200px;
-}
+} */
 
 body{
-  /* box-sizing: border-box; */
-  float: right;
-  color:red;
   box-sizing: border-box;
+  float: right;
+  /* color:red; */
+  /* box-sizing: border-box; */
   background-color: #F0FFFE;
 }
 
 .intro{
   box-sizing: content-box;
-  float: right;
+  /* float: right; */
   scale: auto;
 }
