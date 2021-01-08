@@ -1,55 +1,53 @@
+.myPic{
+  float:left;
+  position:sticky;
+  top:0;
+  border: 6px solid #B55052;
+  width: 20%;
+
+}
+.intro{
+  box-sizing: border-box;
+  float: left;
+  scale: 100%;
+  padding: 20px;
+  width: 50%;
+}
 .aboutMe{
-  /* float: right; */
+  box-sizing: border-box;
+  scale: auto;
 }
 
 .recipe{
-  /* border: 2px solid black;
+  border: 2px solid black;
   box-sizing: border-box;
   padding: 20px;
-  width: 40%;
+  width: 20%;
   text-align: left;
-  float:left; */
+  float:right;
 }
 
 .recipe ul{
-  /* float : left; */
-  /* size: 100%; */
+  float : left;
 }
 
 .recipe ol{
-  /* float : right; */
+  float : right;
 }
 
 .recipe p{
-  /* box-sizing: border-box; */
-  /* text-align: right; */
-  /* font-size: 100%; */
+  box-sizing: border-box;
+  text-align: right;
+  font-size: 200%;
 }
 
-/* .recipe img{
+.recipe img{
   box-sizing: border-box;
-  width: 30%;
-  float:left;
-} */
+  width: 40%;
+  /* float:bottom; */
+}
 
-/* .myPic{
-  float:left;
-  position: sticky;
-  top: 0;
-  border: 6px solid #B55052;
-  height: 200px;
-} */
 
 body{
-  box-sizing: border-box;
-  float: right;
-  /* color:red; */
-  /* box-sizing: border-box; */
   background-color: #F0FFFE;
-}
-
-.intro{
-  box-sizing: content-box;
-  /* float: right; */
-  scale: auto;
 }
