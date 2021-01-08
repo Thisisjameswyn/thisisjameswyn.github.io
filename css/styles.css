@@ -21,8 +21,9 @@
   float:left;
   position: sticky;
   top: 0;
-  width: 25%;
-  /* object-fit: cover; */
+  /* width: 25%; */
+  border: 6px solid #B55052;
+  height: 200px;
 }
 
 body{
@@ -30,6 +31,7 @@ body{
   float: right;
   color:red;
   box-sizing: border-box;
+  background-color: #F0FFFE;
 }
 
 .intro{
